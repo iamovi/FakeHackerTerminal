@@ -4,7 +4,7 @@ This project creates a simulated hacking terminal for entertainment.
 
 ## Demo
 
-Try it out [here](https://your-demo-website.com).
+Try it out [here](https://iamovi.github.io/FakeHackerTerminal/).
 
 ## Usage
 
