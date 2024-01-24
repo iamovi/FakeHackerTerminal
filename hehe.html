@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacked</title>
+
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background: black;
+        }
+        img {
+            width: 75%;
+            display: block;
+            margin: auto;
+        }
+        h2 {
+            color: #0F0;
+            text-align: center;
+            text-shadow: 2px 2px 4px #00F, -2px -2px 4px #F00;/* white text shadow with 2px horizontal and vertical offset, and 4px blur */
+            animation: fadeInOut 0.5s infinite; /* 3s duration, infinite loop */
+        }
+
+        @keyframes fadeInOut {
+            0%, 100% {
+                opacity: 0; /* Start and end with opacity 0 for fade out effect */
+            }
+            50% {
+                opacity: 1; /* Middle of animation with opacity 1 for fade in effect */
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="./nasa.webp" alt="nasa">
+    <h2>NASA hacked succesfully...</h2>
+</body>
+</html>
